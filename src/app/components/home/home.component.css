@@ -1,0 +1,141 @@
+
+.container-title {
+    display: flex;
+        justify-content: start;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+margin-top: 10px;
+    background-color: #A16AE8;
+    border-radius: 5px;
+    justify-content: center;
+}
+ 
+.hr{
+    width: 560px;
+    border-color: #A16AE8;
+        background-color: #A16AE8;
+        color: #A16AE8;
+}
+
+.container-total{
+        width: 50%;
+        margin: 0 auto;
+    background-color:white;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+
+.input {
+background-color: white;
+border: none;
+border-radius: 5px;
+padding: 20px;
+}
+
+input::placeholder {
+    color: #A16AE8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.todos {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.button {
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #A16AE8;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+}
+
+
+.button-delete-element {
+    background-color: rgb(241, 69, 69);
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+}
+
+.button-pospone-element {
+    background-color: #FEA303;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+}
+
+.button-completed-element {
+    background-color: rgb(57, 243, 57);
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        color: white;
+}
+
+.post-buttons {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.row-even {
+    border-color: #d5c7e7;
+    background-color: #d5c7e7;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.row-odd {
+    background-color: #d5c7e7;
+    margin-bottom: 10px;
+        margin-top: 10px;
+}
+
+.row-completed {
+    background-color: #A16AE8;
+    margin-bottom: 10px;
+        margin-top: 10px;
+}
